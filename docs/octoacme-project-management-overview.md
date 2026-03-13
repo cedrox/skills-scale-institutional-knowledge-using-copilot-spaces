@@ -19,6 +19,21 @@ Applies to all cross-functional projects that deliver product features, services
 - Developers: implement features, collaborate on design and testability.
 - QA/Testing: validate quality and acceptance criteria.
 - Stakeholders: provide inputs and approvals.
+- Scrum Master: facilitates team ceremonies, removes impediments, fosters continuous improvement.
+- Technical Lead: owns architecture and technical direction.
+- Release Engineer: owns release pipelines and orchestration.
+- DevOps Engineer: owns infrastructure and monitoring.
+- UX Designer: owns user research and interface design.
+- Customer Support Lead: owns support readiness and incident triage.
+
+## RACI-style mapping (compact)
+For common lifecycle activities, typical role responsibilities (R = Responsible, A = Accountable, C = Consulted, I = Informed):
+
+- **Initiation**: R: PdM, PM | A: PdM | C: Stakeholders, Technical Lead | I: Dev Team, Support
+- **Planning**: R: PM, PdM | A: PM | C: Technical Lead, Scrum Master, UX Designer | I: Stakeholders, Support
+- **Execution**: R: Developers, QA | A: PM | C: Scrum Master, Technical Lead, UX Designer | I: Stakeholders, Support
+- **Release**: R: Release Engineer, DevOps Engineer | A: PM | C: PdM, Technical Lead, Customer Support Lead | I: Stakeholders, Dev Team
+- **Retrospective**: R: Team (Developers, QA, Scrum Master) | A: PM | C: PdM, Technical Lead | I: Stakeholders
 
 ## Key Artifacts
 - Project Charter / One-pager
@@ -44,3 +59,4 @@ Applies to all cross-functional projects that deliver product features, services
 ## How to use these docs
 - Keep the Project Charter updated in the project repo.
 - Add process-specific docs into `.copilot/` if you want Copilot Spaces to use them as context.
+- Use [docs/roles-onboarding-checklist.md](roles-onboarding-checklist.md) and [docs/release-checklist.md](release-checklist.md) to standardize handoffs and release readiness.
