@@ -16,9 +16,29 @@ Applies to all cross-functional projects that deliver product features, services
 ## Core Roles
 - Project Manager (PM): coordinates delivery, schedules, risk, communications.
 - Product Manager (PdM): defines outcomes, prioritizes backlog, and measures success.
+- Scrum Master: facilitates agile ceremonies, removes impediments, coaches team.
 - Developers: implement features, collaborate on design and testability.
 - QA/Testing: validate quality and acceptance criteria.
+- Technical Lead: drives architecture decisions, sets engineering standards, guides developers.
+- UX Designer: translates user needs into designs; conducts research and usability validation.
+- Release Engineer: owns CI/CD pipelines, coordinates deployments, prepares release notes.
+- DevOps Engineer: manages infrastructure, monitoring, and delivery tooling.
+- Customer Support Lead: ensures support readiness, routes feedback, escalates critical issues.
 - Stakeholders: provide inputs and approvals.
+
+See [octoacme-roles-and-personas.md](octoacme-roles-and-personas.md) for full role definitions.
+
+### RACI Summary
+
+| Activity | Responsible | Accountable | Consulted | Informed |
+|---|---|---|---|---|
+| **Initiation** | PM | PM / Sponsor | PdM, Technical Lead, Stakeholders | All roles |
+| **Planning** | PM + PdM | PM | Technical Lead, Scrum Master, UX Designer, Developers | Stakeholders, DevOps, Release Eng |
+| **Execution** | Developers, QA, UX Designer | PM + Technical Lead | Scrum Master, PdM | Stakeholders, Customer Support Lead |
+| **Release** | Release Engineer, DevOps Engineer | PM + Release Engineer | QA, Technical Lead, Customer Support Lead | Stakeholders, All roles |
+| **Retrospective** | Scrum Master | PM | All team roles | Stakeholders (summary only) |
+
+> **Key:** R = Responsible (does the work), A = Accountable (owns the outcome), C = Consulted (provides input), I = Informed (kept in the loop).
 
 ## Key Artifacts
 - Project Charter / One-pager
