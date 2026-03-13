@@ -4,9 +4,11 @@
 Guidance for managing day-to-day execution and tracking progress toward project milestones.
 
 ## Team Rhythm
-- Daily standups (15 min) — focus on progress, blockers, dependencies
-- Weekly delivery sync — show progress, updates, and flagged risks
-- Demo/Review at the end of each sprint or milestone
+- Daily standups (15 min) — **facilitated by Scrum Master** — focus on progress, blockers, and dependencies; each team member answers: what did I do, what will I do, what is blocking me
+- Weekly delivery sync — PM leads; Scrum Master surfaces sprint health, velocity trends, and flagged risks
+- Sprint Planning — Scrum Master facilitates; PdM presents prioritized backlog; Developers commit to sprint scope
+- Sprint Review / Demo — team demonstrates completed work; Scrum Master facilitates; PM and PdM invite stakeholders
+- Sprint Retrospective — Scrum Master facilitates; team captures what went well, what to improve, and action items
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
@@ -29,9 +31,10 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - Use dashboards for key signals (errors, latency, usage)
 
 ## Blocker Escalation
-- Level 1: Team-level triage in daily standup
-- Level 2: PM escalates to Product Lead and dependent teams
-- Level 3: Sponsor-level escalation for business-impacting issues
+- Level 1: **Scrum Master** surfaces and triages blockers in daily standup; attempts team-level resolution within the sprint day
+- Level 2: **Scrum Master** escalates cross-team or prolonged blockers (>1 day) to PM; PM coordinates with dependent teams and Product Lead
+- Level 3: **PM** escalates business-impacting or resource blockers to Sponsor level; Scrum Master continues to shield team and update sprint board
+- Rule of thumb: Scrum Master owns blockers within the team's control; PM owns blockers that require external decisions or resources
 
 ## Execution Checklist
 - [ ] Branching and PR conventions documented in repo

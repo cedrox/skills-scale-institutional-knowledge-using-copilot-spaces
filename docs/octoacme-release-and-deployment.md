@@ -16,6 +16,8 @@ Standardize how OctoAcme releases features to production to reduce risk and impr
 - Smoke tests prepared
 
 ## Deployment Checklist
+See the detailed [release-checklist.md](release-checklist.md) for the full step-by-step checklist including Release Engineer and DevOps Engineer sign-offs.
+
 - [ ] Deployment window scheduled (if needed)
 - [ ] Backup or snapshot (if applicable)
 - [ ] Deploy to staging and run smoke tests
